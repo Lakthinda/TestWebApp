@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>    
+    <IsPackable>true</IsPackable>
+    <PackageId>Onetive.AzureDevOps.TestWebApp</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Lakthinda Ranasinghe</Authors>
+    <Company>Onetive</Company>
   </PropertyGroup>
 
   <ItemGroup>
